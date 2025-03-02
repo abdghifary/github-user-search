@@ -11,7 +11,7 @@ const App = () => {
   const { users, userName, isLoading, errors } = state;
 
   return (
-    <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-sm">
+    <div className="max-w-md mx-auto p-6">
       <h1 className="text-2xl text-center font-semibold text-gray-800 mb-6">
         Search GitHub Users
       </h1>
