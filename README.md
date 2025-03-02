@@ -1,29 +1,40 @@
-# Rsbuild project
+# GitHub User Search
 
-## Setup
+A simple React application that allows users to search for GitHub users and view their repositories.
 
-Install the dependencies:
+## Features
 
-```bash
+- Search for GitHub users
+- View user repositories and details
+- Clean, responsive UI with Tailwind CSS
+
+## Technologies Used
+
+- React 19
+- TypeScript
+- Tailwind CSS
+- Rsbuild
+- GitHub API via Octokit
+
+## Development
+
+To run this project locally:
+
+1. Clone the repository
+2. Create a `.env` file with your GitHub token:
+
+PUBLIC_GIT_TOKEN=your_github_token
+
+3. Install dependencies:
+
 pnpm install
-```
 
-## Get started
+4. Start the development server:
 
-Start the dev server:
-
-```bash
 pnpm dev
-```
 
-Build the app for production:
+## Deployment
 
-```bash
-pnpm build
-```
+This project is automatically deployed to GitHub Pages using GitHub Actions.
 
-Preview the production build locally:
-
-```bash
-pnpm preview
-```
+Visit: [https://abdghifary.github.io/github-user-search](https://abdgifary.github.io/github-user-search)

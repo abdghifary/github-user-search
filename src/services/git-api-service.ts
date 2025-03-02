@@ -17,7 +17,7 @@ export type Repositories = UserRepository[];
 
 export const useGitApiService = () => {
   const octokit = new Octokit({
-    auth: process.env.PUBLIC_GIT_TOKEN,
+    auth: import.meta.env.PUBLIC_GIT_TOKEN || process.env.PUBLIC_GIT_TOKEN,
   });
 
   const searchUser = async (
