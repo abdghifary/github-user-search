@@ -75,7 +75,8 @@ export const UserAccordion = ({ userData }: UserAccordionProps) => {
           ) : (
             <>
               <p className="text-sm text-gray-500 mb-2">
-                Showing {repositories.length} repositories
+                Showing {repositories.length} repositories. Click to view on
+                GitHub.
               </p>
 
               <div className="space-y-3 max-h-80 overflow-y-auto pr-1">

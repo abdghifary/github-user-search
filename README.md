@@ -37,4 +37,4 @@ pnpm dev
 
 This project is automatically deployed to GitHub Pages using GitHub Actions.
 
-Visit: [https://abdghifary.github.io/github-user-search](https://abdgifary.github.io/github-user-search)
+Visit: [https://abdghifary.github.io/github-user-search/](https://abdghifary.github.io/github-user-search/)

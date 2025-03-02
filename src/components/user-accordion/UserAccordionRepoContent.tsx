@@ -9,8 +9,18 @@ interface UserAccordionRepoContentProps {
 export const UserAccordionRepoContent = ({
   repoData,
 }: UserAccordionRepoContentProps) => {
+  const handleOnClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    window.open(repoData.html_url, '_blank');
+  };
+
   return (
-    <div className="bg-gray-100 p-3 rounded">
+    <div
+      onClick={handleOnClick}
+      className="bg-gray-100 p-3 rounded cursor-pointer"
+    >
       <div className="flex justify-between items-start">
         <h3 className="font-medium text-gray-900">{repoData.name}</h3>
 
